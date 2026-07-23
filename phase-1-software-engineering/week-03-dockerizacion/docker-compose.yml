@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: postgres_bootcamp
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-datauser}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-datapass}
+      POSTGRES_DB: ${POSTGRES_DB:-bootcamp_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  ingestor:
+    build: .
+    container_name: ingestor_app
+    environment:
+      - POSTGRES_HOST=postgres
+    depends_on:
+      - postgres
+
+volumes:
+  pgdata:
