@@ -1,11 +1,8 @@
 """
-Tests unitarios para GenericAsyncIngestor
-"""
-import pytest
-from src.ingestor import GenericAsyncIngestor, DataRecord
+Semana 01 - Pruebas Unitarias para el Ingestor Genérico
 
-def test_data_record_validation():
-    payload = {"id": 1, "title": "Test Item", "body": "Sample body"}
-    record = DataRecord(**payload)
-    assert record.id == 1
-    assert record.title == "Test Item"
+Escribe aquí tus pruebas unitarias usando pytest para validar el comportamiento
+de tu ingestor (validación de datos de Pydantic, parseo de respuestas, etc.).
+"""
+
+# TODO: Tu turno como Data Engineer para escribir tus tests con pytest...
