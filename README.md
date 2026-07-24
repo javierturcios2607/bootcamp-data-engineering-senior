@@ -1,4 +1,4 @@
-# 🚀 Bootcamp Intensivo de Ingeniería de Datos Senior
+#  Bootcamp Intensivo de Ingeniería de Datos Senior
 
 > **Ruta para alcanzar nivel Senior en 24 Semanas.**  
 > *Metodología militar: Disciplina diaria (1-2 hrs) + Reto Práctico los Domingos.*
@@ -12,9 +12,9 @@
 
 ---
 
-## 📅 Roadmap Completo de 24 Semanas
+##  Roadmap Completo de 24 Semanas
 
-### 📌 FASE 1: Fundamentos de Ingeniería de Software (Semanas 01 - 04)
+###  FASE 1: Fundamentos de Ingeniería de Software (Semanas 01 - 04)
 *Dejar de escribir scripts y empezar a desarrollar software de calidad producción.*
 
 - [ ] **[Semana 1: Python Avanzado (22 Ene - 28 Ene)](phase-1-software-engineering/week-01-python-avanzado/README.md)**
@@ -26,7 +26,7 @@
 - [ ] **[Semana 4: CI/CD - Automatización (12 Feb - 18 Feb)](phase-1-software-engineering/week-04-cicd-automatizacion/README.md)**
   - *Proyecto:* 🚨 Domingo de Proyecto: Configura un repo en GitHub. Cada vez que hagas un push, GitHub Actions debe correr tus tests. Si pasan, debe construir la imagen Docker.
 
-### 📌 FASE 2: Bases de Datos y Modelado (Semanas 05 - 08)
+###  FASE 2: Bases de Datos y Modelado (Semanas 05 - 08)
 *Diseñar el cerebro del sistema y dominar SQL, índices, modelado dimensional y data lakes.*
 
 - [ ] **[Semana 5: SQL Avanzado (19 Feb - 25 Feb)](phase-2-databases-modeling/week-05-sql-avanzado/README.md)**
@@ -38,7 +38,7 @@
 - [ ] **[Semana 8: Data Lake & Formatos Modernos (11 Mar - 17 Mar)](phase-2-databases-modeling/week-08-datalake-minio-parquet/README.md)**
   - *Proyecto:* 🚨 Domingo de Proyecto: Agrega MinIO a tu docker-compose. Modifica tu script Python para que lea de la API y guarde en formato Parquet particionado por fecha en MinIO (Capa Bronze).
 
-### 📌 FASE 3: Big Data y Transformación (Semanas 09 - 12)
+###  FASE 3: Big Data y Transformación (Semanas 09 - 12)
 *Escalar el procesamiento masivo de datos con Apache Spark, dbt, DuckDB y Polars.*
 
 - [ ] **[Semana 9: Apache Spark - Arquitectura (18 Mar - 24 Mar)](phase-3-bigdata-transformation/week-09-spark-architecture/README.md)**
@@ -50,7 +50,7 @@
 - [ ] **[Semana 12: DuckDB y Polars (8 Abr - 14 Abr)](phase-3-bigdata-transformation/week-12-duckdb-polars/README.md)**
   - *Proyecto:* 🚨 Domingo de Proyecto: Reemplaza una parte pequeña de tu pipeline que usaba Pandas por Polars y mide la diferencia de velocidad.
 
-### 📌 FASE 4: Infraestructura y Cloud (Semanas 13 - 16)
+###  FASE 4: Infraestructura y Cloud (Semanas 13 - 16)
 *Desplegar infraestructuras como código en la nube (AWS/Azure), Serverless y Contenedores.*
 
 - [ ] **[Semana 13: Cloud (AWS/Azure) - IaaS (15 Abr - 21 Abr)](phase-4-infrastructure-cloud/week-13-cloud-iaas/README.md)**
@@ -62,7 +62,7 @@
 - [ ] **[Semana 16: Contenedores en Nube (6 May - 12 May)](phase-4-infrastructure-cloud/week-16-cloud-containers-ecs/README.md)**
   - *Proyecto:* 🚨 Domingo de Proyecto: Sube la imagen Docker de tu ingestor (de la Fase 1) a ECR y ejecútala como una tarea en ECS Fargate programada.
 
-### 📌 FASE 5: Orquestación y Proyecto Final (Semanas 17 - 20)
+###  FASE 5: Orquestación y Proyecto Final (Semanas 17 - 20)
 *Orquestar pipelines de principio a fin con Apache Airflow, calidad de datos y desplegar la plataforma completa.*
 
 - [ ] **[Semana 17: Apache Airflow (13 May - 19 May)](phase-5-orchestration-final-project/week-17-apache-airflow/README.md)**
@@ -74,7 +74,7 @@
 - [ ] **[Semana 20: El Proyecto Final - Parte 2 (3 Jun - 9 Jun)](phase-5-orchestration-final-project/week-20-final-project-part2/README.md)**
   - *Proyecto:* 🚨 Domingo de Proyecto: Presentación final del Gran Proyecto Evolutivo Híbrido funcionando end-to-end.
 
-### 📌 FASE 6: Especialización Enterprise - Azure, Databricks y Fabric (Semanas 21 - 24)
+###  FASE 6: Especialización Enterprise - Azure, Databricks y Fabric (Semanas 21 - 24)
 *Escalar el stack hacia soluciones empresariales de Microsoft Azure, Databricks Medallion y Microsoft Fabric.*
 
 - [ ] **[Semana 21: Ecosistema Azure Data (10 Jun - 16 Jun)](phase-6-enterprise-azure-databricks-fabric/week-21-azure-data-ecosystem/README.md)**
@@ -88,7 +88,7 @@
 
 ---
 
-## 🛠️ Comandos Rápidos (Makefile)
+##  Comandos Rápidos (Makefile)
 
 ```bash
 make setup      # Instala dependencias y prepara el entorno
@@ -98,7 +98,7 @@ make docker-up  # Levanta los servicios locales (Postgres, MinIO, Airflow)
 make docker-down # Detiene los servicios locales
 ```
 
-## 🐙 Cómo subir este repositorio a GitHub
+##  Cómo subir este repositorio a GitHub
 
 1. Inicializa tu repositorio y realiza el primer commit:
 ```bash
